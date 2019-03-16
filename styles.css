@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+.wrapper {
+background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  margin-top: -200px;
+  overflow: hidden;
+
+}
+
+.wrapper.form-success .container h1 {
+  -webkit-transform: translateY(85px);
+      -ms-transform: translateY(85px);
+          transform: translateY(85px);
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 0;
+  height: 400px;
+  text-align: center;
+}
+.container h1 {
+  font-size: 40px;
+  font-weight: 200;
+  color:black;
+  font-family: 'MicroSoft YaHei';
+}
+form {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+form input {
+  
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255);
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-weight: 1000;
+  font-family: 'MicroSoft YaHei';
+}
+
+form input:focus {
+  background-color: white;
+  
+  width: 250px;
+  color: black;
+}
+form button {
+
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 0;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'MicroSoft YaHei';
+}
+form button:hover {
+  background-color: #f5f7f9;
+}
+tail{
+	color: black;
+	font-weight: 1000;
+	text-align:center;
+	margin:50px 50px; 
+	font:18px ;
+  	font-family: 'MicroSoft YaHei';
+}
